@@ -8503,7 +8503,10 @@
           },
           "fields": {
             "type": "array",
-            "description": "The fields with which to group against. Depending on the aggregate, Alerts will group if some or all the fields match"
+            "description": "The fields with which to group against. Depending on the aggregate, Alerts will group if some or all the fields match",
+            "items": {
+              "type": "string"
+            }
           }
         }
       },
